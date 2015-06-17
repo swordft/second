@@ -8,6 +8,7 @@ request.setAttribute("name", name1);
 %>
 <html>
 <body>
+<h1>We are cSphere</h1>
 <h2>Hello <%=name1 %> !</h2>
 </body>
 </html>
