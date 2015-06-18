@@ -19,6 +19,8 @@ RUN tar xzf /opt/apache-maven-3.3.3-bin.tar.gz -C /opt && \
     mv /opt/apache-maven-${MAVEN_VERSION} /opt/maven  && \
     ln -s /opt/maven/bin/mvn /usr/bin/mvn
 
+COPY settings.xml /opt/maven/conf/settings.xml
+
 ADD hello /hello
 RUN cd /hello && \
-    mvn clean install
+    mvn clean install -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true
