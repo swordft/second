@@ -8,8 +8,9 @@
 - 第五讲 Docker 实战之持续部署以及弹性伸缩
 - 第六讲 Docker 实战之存储
 
-##课程火热进行中，接地气的**开源免费**培训课程，并有礼品赠送。[报名地址](https://csphere.cn/training)
-##第四讲 2015年7月15日 周二 晚21:00开课 [报名地址](https://csphere.cn/training)
+此次课程是：希云cSphere免费为国内docker爱好者进行docker培训。希云cSphere致力于为企业提供专业的docker管理平台，和paas平台！
+
+**欢迎崔旬：400-686-1560**
 
 ###第一讲
 ```
@@ -85,4 +86,10 @@
 
 [培训镜像:](http://market.qcloud.com/detail.php?productId=140)http://market.qcloud.com/detail.php?productId=140
 
-###第四讲(未开课)
+###第四讲(已完成)
+
+###第五讲(已完成)
+
+###第六讲(已完成)
+
+##[观看课程视频地址](https://csphere.cn/training)
