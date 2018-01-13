@@ -11,9 +11,9 @@ ENV MAVEN_VERSION 3.3.3
 ENV MAVEN_HOME /opt/maven
 
 # Install maven
-ADD http://mirror.cc.columbia.edu/pub/software/apache/maven/maven-3/${MAVEN_VERSION}/binaries/apache-maven-${MAVEN_VERSION}-bin.tar.gz /opt/
+#ADD http://mirror.cc.columbia.edu/pub/software/apache/maven/maven-3/${MAVEN_VERSION}/binaries/apache-maven-${MAVEN_VERSION}-bin.tar.gz /opt/
 
-#COPY apache-maven-3.3.3-bin.tar.gz /opt/
+COPY apache-maven-3.3.3-bin.tar.gz /opt/
 
 RUN tar xzf /opt/apache-maven-3.3.3-bin.tar.gz -C /opt && \
     mv /opt/apache-maven-${MAVEN_VERSION} /opt/maven  && \
